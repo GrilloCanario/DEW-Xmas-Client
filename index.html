@@ -10,10 +10,21 @@
             margin-left: 10px;
             cursor: pointer;
         }
+        .edit {
+            color: orange;
+            margin-left: 10px;
+            cursor: pointer;
+        }
     </style>
-    <script src="xmas.js"></script>
+    <script src="xmas.js" defer></script>
 </head>
 <body>
+    <form id="reindeerForm">
+        <p>
+            <input type="text" name="name" id="reindeerName" placeholder="Nombre del reno...">
+            <input type="submit" value="Crear">
+        </p>
+    </form>
     <h1>Listado de renos</h1>
     <ul id="reindeerList"></ul>
 </body>
